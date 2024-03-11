@@ -6,17 +6,20 @@
     <link rel="icon" href="head1.png" />
 
     <style>
-        #div1 {
+        #div1 
+        {
             width: 200px;
             height: 150px;
             background-color: lightblue;
         }
 
-        #img1 {
+        #img1 
+        {
             height: 150px;
         }
 
-        #img2 {
+        #img2 
+        {
             height: 200px;
         }
     </style>
@@ -24,6 +27,82 @@
 </head>
 
 <body>
+    <script>
+        // HTML CSS related (not a programming language)
+        // JavaScript stand alone language (a programming language)
+        // BScript
+        // LiveScript => (JavaScript)
+        // Java and JavaScript do not have a strong relationship to one another
+        // not type safe language (not strict)
+        // JavaScript popular (because it is not a type safe language)
+        // rule to JavaScript to make it more type safe
+        //
+        // s1
+        "use strict";// will provide some error-checking
+        // define variables
+        {// walls, block, small world
+            const age1 = 20;// undefined, flexible datatypes, local
+            let age2;// local variable
+            var v1;// global variable
+
+            age2 = 20;// age2 is a number
+            age2 = 128.8;//
+            age2 = 'tom';// ""
+            age2 = ``;
+
+            let name = "tom";
+            let age = 20;
+
+            let str = `The name is ${name}. The age is ${20}`;
+
+            console.log(str);//
+            // alert(str);// pop-up window on webpage
+
+            let stu;// undefined
+            // object, dictionary
+            stu =
+            {
+                name: "Tom",
+                age: 20,
+                grade: 96.6,
+            };
+            console.log(stu.grade);
+
+            let arr1;// local, undefined
+            arr1 = ["Tom", "Jack"]
+            console.log(arr1.length);
+            console.log(arr1[1]);
+
+            // define function
+            // way 1, no let
+            function func1(p1, p2)
+            {// 
+                return p1 + p2;// return is not mandatory
+            }
+
+            // way 2, arrow function
+            // ; not mandatory but use it to show where lines end
+            let func2 = (p1, p2) =>
+            {
+                return p1 * p2;
+            };
+
+            console.log(func1(2.3, 3.0));
+            console.log(func2(2.3, 3.0));
+
+        }
+    </script>
+
+    <script>
+        // s2
+        "use strict";
+        {
+            // age2 = 20;
+            v1 = 20;
+        }
+    </script>
+
+
     <div id="div1"></div>
     <img id="img1" src="head1.png"/>
     <img id="img2" src="b.svg"/>
