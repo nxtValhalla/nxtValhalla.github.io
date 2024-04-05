@@ -17,7 +17,7 @@
 }
 #content2 
 {
-
+    background-color:#ededed;
 }
 #footer 
 {
@@ -41,11 +41,20 @@
 }
 #top 
 {
-
+    
 }
 #bottom 
 {
-
+    display:flex;
+    flex-direction:row;
+}
+#botleft 
+{
+    width:200px;
+}
+#botright 
+{
+    width:600px;
 }
 .title1 
 {
